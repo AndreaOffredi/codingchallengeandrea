@@ -1,0 +1,74 @@
+/* prima vado a definire graficamente i box contenitori */
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+/* vado a definire header del sito */
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 20%;
+}
+
+.titolo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00d700;
+    margin: 5px;
+}
+
+/* definisco il menu */
+.menu{
+    background-color: #00d700;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* ed infine il contenuto della pagina */
+.nome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fafafa;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgray;
+    margin: 5px;
+}
+
+#carica1{
+    width: 40%;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    border: 15px solid orange;
+}
+
+#carica2{
+    width: 60%;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    border: 15px solid green;
+}
+
+#carica3{
+    width: 15%;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    border: 15px solid red;
+}
